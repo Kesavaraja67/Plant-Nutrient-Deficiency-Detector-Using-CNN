@@ -17,12 +17,14 @@ dist/
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore model and large weight files
+# Ignore large model and weight files EXCEPT .hdf5 (tracked via Git LFS)
 *.h5
-*.hdf5
 *.pb
 *.ckpt
 *.tflite
+
+# Allow this specific model file even though it’s large
+!weights.hdf5
 
 # Ignore log files and temporary data
 *.log
