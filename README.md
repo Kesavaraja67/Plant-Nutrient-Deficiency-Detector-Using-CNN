@@ -19,7 +19,7 @@ Modern hydroponic and traditional farming systems often rely on external paramet
 - 🌿 Detects **N**, **P**, and **K** nutrient deficiencies in rice and spinach leaves.  
 - 🧩 Built using **Convolutional Neural Networks (CNN)**.  
 - ⚡ Provides **real-time predictions** via a **Streamlit web app**.  
-- ☁️ Deployed on [Streamlit Cloud](https://harnpredict.streamlit.app/).  
+- ☁️ Deployed on [Streamlit Cloud](https://plant-nutrient-deficiency-detector-using-cnn.streamlit.app/).  
 - 📸 Simple interface — users can upload a leaf image and instantly view the diagnosis.  
 - 🧾 Provides detailed class probabilities and prediction confidence.
 
