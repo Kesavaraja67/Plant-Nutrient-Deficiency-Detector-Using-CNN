@@ -7,3 +7,4 @@ pandas
 scikit-learn
 matplotlib
 protobuf>=4.21.0
+gdown==4.6.6
