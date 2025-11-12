@@ -1,0 +1,52 @@
+# Ignore virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Ignore Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+build/
+dist/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model and large weight files
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.tflite
+
+# Ignore log files and temporary data
+*.log
+*.tmp
+*.txt~
+*.bak
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Streamlit specific cache
+.streamlit/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment and dependency files generated automatically
+*.env
+.env
+*.ini
+
+# Optional: Ignore dataset or uploads folder if you add them later
+uploads/
+data/
+dataset/
